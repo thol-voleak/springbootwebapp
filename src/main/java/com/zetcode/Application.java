@@ -1,12 +1,12 @@
-package guru.springframework;
+package com.zetcode;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootWebApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootWebApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
